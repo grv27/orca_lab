@@ -1,0 +1,337 @@
+<!-- Linking Bootstrap --><!-- Linking Bootstrap -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" /><meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">*{ box-sizing: border-box; }
+    .container-product{
+      height: auto;
+      width: 100%;
+      background-color: #f1f2f2 !important;
+      font-family: Poppins, sans-serif;
+margin-top: 50px;
+      }
+.ctatop {
+    background: #1d252c !important;
+    padding-top: 20px !important;
+    padding-bottom: 30px !important;
+
+padding-left: 15px;
+padding-right: 15px;
+
+
+}
+.black-trans-bg {
+    position: relative;
+}
+.black-trans-bg::before {
+    background: none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+.ctatop-title h2 {
+  font-family: Poppins, sans-serif;
+    color: #54c0e8!important;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 16px 0;
+
+}
+.ctatop-title a {
+    margin-top: 15px;
+    border: 1px solid #989c9f;
+    background: #989c9f;
+    color: #f1f2f2;
+    display: inline-block;
+    float: right;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 9px 18px;
+    text-transform: uppercase;
+    text-decoration: none !important;
+}
+.ctatop-title a:hover {
+
+    border: 1px solid #1d252c;
+    background: #54c0e8 !important;
+    color: #1d252c !important;
+
+}
+    .container-2layout{
+      position: relative;
+      width: 100%;
+      height: auto;
+      }
+    .first-column {
+        background: #f1f2f2;
+        color: #1d252c;
+        font-size: 2rem;
+        align-items: center;
+
+    }
+    .first-column-prj {
+        background: #f1f2f2;
+        color: #1d252c;
+
+    justify-content: center;
+    }
+
+    .second-column{
+      background: #f1f2f2;
+        color: #1d252c;
+        }
+    .second-column-prj {
+        background: #f1f2f2;
+        color: #1d252c;
+        align-items: left;
+
+    }
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .image-prj{
+      display: block;
+      width: 100%;
+      height: 250px;
+    }
+     .overlay {
+      position: absolute;
+      bottom: 0;
+      background: #f1f2f2;
+      background: #54c0e8; /* Black see-through */
+      color: #f1f2f2;
+      width: 100%;
+      transition: 0.5s ease;
+      opacity: 0;
+      font-size: 20px;
+      padding: 18px;
+      text-align: center;
+    }
+.overlay h4{
+font-size: 22px;
+color: #1d252c;
+}
+    .container-image {
+      position: relative;
+      width: 100%;
+      }
+    .container-image:hover .overlay {
+      opacity: 1;
+    }
+    .article_con {
+      background-color: #f1f2f2;
+      border: 1px;
+      margin: 10px;
+      padding: 10px;
+      border-style: solid;
+      border-color: #f2f2f2;
+    }
+    .article_con:hover {
+      background-color: #54c0e8;
+      margin: 10px;
+      padding: 10px;
+    }
+    a:link {
+      color: #1d252c;
+    }
+
+    /* mouse over link */
+    a:hover {
+      color: #ffbf3c;
+    }
+    .container-3layout {
+      position: relative;
+      width: 100%;
+      }
+      .btn-primary{
+        background: #989c9f !important;
+        text-decoration: none;
+        border-color: #989c9f !important;
+        cursor: pointer;
+      }
+      .btn-primary:hover{
+        background-color: #54c0e8 !important;
+        color: #1d252c !important;
+      }
+
+
+
+      .bs-calltoaction{
+        position: relative;
+        width:auto;
+        padding: 15px 25px;
+        border: 1px solid black;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+        .bs-calltoaction > .row-cta{
+            display:table;
+            width: calc(100% + 30px);
+        }
+            .bs-calltoaction > .row-cta > [class^="col-"],
+            .bs-calltoaction > .row-cta > [class*=" col-"]{
+                float:none;
+                display:table-cell;
+                vertical-align:middle;
+            }
+                .cta-contents{
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+                .cta-title{
+                        margin: 0 auto 15px;
+                        padding: 0;
+                        color: #54c0e8;
+                    }
+                .cta-button{
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+
+                }
+
+    @media (max-width: 991px){
+        .bs-calltoaction > .row-cta{
+            display:block;
+            width: auto;
+        }
+            .bs-calltoaction > .row-cta > [class^="col-"],
+            .bs-calltoaction > .row-cta > [class*=" col-"]{
+                float:none;
+                display:block;
+                vertical-align:middle;
+                position: relative;
+            }
+            .cta-contents{
+                text-align: center;
+            }
+    }
+    .bs-calltoaction.bs-calltoaction-primary{
+        background-color: #1d252c;
+        border-color: #2e6da4;
+    }
+    .bs-calltoaction.bs-calltoaction-primary .cta-button .btn {
+        color:#f1f2f2;
+                    background: #989c9f;
+
+    }
+    .bs-calltoaction.bs-calltoaction-primary .cta-button .btn:hover {
+        color:#1d252c;
+                    background: #54c0e8;
+                    }
+@media screen and (max-width: 850px) and (min-width: 300px){
+.container-page {
+    padding-top: 100px !important;
+}
+}
+</style>
+<div class="container-page">
+<div class="container-product">
+<div class="para-intro">
+<h2><strong>Demo Title</strong></h2>
+
+<hr />
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis blandit cursus tellus vel maximus. Sed lorem nunc, malesuada et rutrum viverra, blandit eget magna. Nulla facilisi. Maecenas viverra eros sed odio tincidunt placerat. Morbi a orci blandit, rutrum justo quis, molestie lacus. Vivamus semper elit ut pellentesque mollis. Maecenas egestas, ante vel suscipit pretium, urna arcu semper justo, non interdum lorem eros sed diam. Praesent lorem velit, cursus sed consectetur nec, hendrerit in nisi.</p>
+</div>
+&nbsp;
+
+<div class="ctatop black-trans-bg">
+<div class="cattop-con">
+<div class="row">
+<div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+<div class="ctatop-title">
+<h2>&nbsp;&nbsp;&nbsp;&nbsp; Need Help? Get in touch with an expert.&nbsp;&nbsp;</h2>
+<a href="http://env-4468463.hidora.com/contact">CONTACT US</a></div>
+</div>
+</div>
+</div>
+</div>
+&nbsp;
+
+<center>
+<h2><strong>Product Categories</strong></h2>
+</center>
+&nbsp;
+
+<div class="container-2layout">
+<div class="row">
+<div class="col-sm-6 first-column">
+<div class="container-image"><img alt="" class="image" src="/sites/default/files/inline-images/J241-Sawan%20WTP%20070.jpg" />
+<div class="overlay">
+<h4>Barrier Technologies</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ante id dolor laoreet laoreet a vitae augue.</p>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 second-column">
+<div class="container-image"><img alt="" class="image" src="/sites/default/files/inline-images/J241-Sawan%20WTP%20070.jpg" />
+<div class="overlay">
+<h4>Deionisers &amp; Ion Exchange</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ante id dolor laoreet laoreet a vitae augue.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+&nbsp;
+
+<div class="container-2layout">
+<div class="row">
+<div class="col-sm-6 first-column">
+<div class="container-image"><img alt="" class="image" src="/sites/default/files/inline-images/J241-Sawan%20WTP%20070.jpg" />
+<div class="overlay">
+<h4>Filtration</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ante id dolor laoreet laoreet a vitae augue.</p>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 second-column">
+<div class="container-image"><img alt="" class="image" src="/sites/default/files/inline-images/J241-Sawan%20WTP%20070.jpg" />
+<div class="overlay">
+<h4>Process Cooling Towers</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ante id dolor laoreet laoreet a vitae augue.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+&nbsp;
+
+<div class="container-2layout">
+<div class="row">
+<div class="col-sm-6 first-column">
+<div class="container-image"><img alt="" class="image" src="/sites/default/files/inline-images/J241-Sawan%20WTP%20070.jpg" />
+<div class="overlay">
+<h4>Settlers</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ante id dolor laoreet laoreet a vitae augue.</p>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 second-column">
+<div class="container-image"><img alt="" class="image" src="/sites/default/files/inline-images/J241-Sawan%20WTP%20070.jpg" />
+<div class="overlay">
+<h4>Floatation</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ante id dolor laoreet laoreet a vitae augue.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+&nbsp;</div>
+</div>

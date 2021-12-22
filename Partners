@@ -1,0 +1,199 @@
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" /><meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">*{ box-sizing: border-box; }
+    .container-industries {
+    height: auto;
+    width: 100%;
+    background-color: #f1f2f2;
+    font-family: Poppins, sans-serif;
+    margin-top: 100px;
+}
+
+.ctatop {
+    background: #1d252c !important;
+    padding-top: 20px !important;
+    padding-bottom: 30px !important;
+
+padding-left: 15px;
+padding-right: 15px;
+
+
+}
+.black-trans-bg {
+    position: relative;
+}
+.black-trans-bg::before {
+    background: none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+.ctatop-title h2 {
+  font-family: Poppins, sans-serif;
+    color: #54c0e8 !important;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 16px 0;
+
+}
+.ctatop-title a {
+    margin-top: 15px;
+    border: 1px solid #989c9f;
+    background: #989c9f;
+    color: #f1f2f2;
+    display: inline-block;
+    float: right;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 9px 10px;
+    text-transform: uppercase;
+    text-decoration: none !important;
+}
+.ctatop-title a:hover {
+
+    border: 1px solid #1d252c;
+    background: #54c0e8;
+    color: #1d252c;
+
+}
+
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+     .overlay {
+      position: absolute;
+      bottom: 0;
+      background: #f1f2f2;
+      background: #54c0e8; /* Black see-through */
+      color: #f1f2f2;
+      width: 100%;
+      transition: 0.5s ease;
+      opacity: 0;
+      font-size: 18px;
+      padding: 20px;
+      text-align: center;
+    }
+.overlay h4{
+font-size: 22px
+}
+    .container-image {
+      position: relative;
+      width: 100%;
+      }
+    .container-image:hover .overlay {
+      opacity: 1;
+    }
+
+    a:link {
+      color: #1d252c;
+text-decoration: none;
+    }
+
+    /* mouse over link */
+    a:hover {
+      color: #ffbf3c;
+text-decoration: none;
+    }
+    .container-3layout {
+      position: relative;
+      width: 100%;
+      }
+@media screen and (max-width: 850px) and (min-width: 300px){
+.container-industries {
+     padding-top: 100px !important;
+}
+}
+.card {
+background:#f1f2f2;
+    font-size: 1em;
+    overflow: hidden;
+    padding: 10px;
+    border: none;
+
+ }
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.d-block{
+height: 350px !important;
+}
+
+.btn {
+  margin-top: auto;
+border: #989c9f !important;
+color: #1d252c !important;
+background: #989c9f !important;
+}
+.btn:hover{
+color: #f1f2f2 !important;
+background: #54c0e8 !important;
+}
+
+@media screen and (max-width: 450px) {
+  .btn.btn-primary.btn-sm.float-right {
+    display: none !important;
+  }
+}
+.d-block.w-100.sres{
+margin-left: 170px !important;
+margin-top:75px !important;}
+img.d-block.w-100.sres.partners-waterex{
+width: 165px !important;
+height: 119px !important;
+}
+.col-sm-7.partners{
+height: 300px !important;
+}
+</style>
+<div class="container-industries">
+<div class="para-intro">
+<h2><b>Our Partners</b></h2>
+
+<hr />
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis blandit cursus tellus vel maximus. Sed lorem nunc, malesuada et rutrum viverra, blandit eget magna. Nulla facilisi. Maecenas viverra eros sed odio tincidunt placerat. Morbi a orci blandit, rutrum justo quis, molestie lacus. Vivamus semper elit ut pellentesque mollis. Maecenas egestas, ante vel suscipit pretium, urna arcu semper justo, non interdum lorem eros sed diam. Praesent lorem velit, cursus sed consectetur nec, hendrerit in nisi.</p>
+</div>
+&nbsp;
+
+<div class="ctatop black-trans-bg">
+<div class="cattop-con">
+<div class="row">
+<div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+<div class="ctatop-title">
+<h2>Need Help? Get in touch with an expert</h2>
+<a href="http://env-4468463.hidora.com/contact">CONTACT US</a></div>
+</div>
+</div>
+</div>
+</div>
+&nbsp; &nbsp;<br />
+&nbsp;
+<div class="container-projects">
+<div class="card">
+<div class="row ">
+<div class="col-sm-7 partners">
+<div class="card-block">
+<h4><strong><a href="http://waterex.com">WATEREX PTY LTD.</a></strong></h4>
+
+<h6>Excellence in solids liquids separation, worldwide</h6>
+
+<hr style="width:100%;" />
+<p>Waterex is commited to delivering excellence in solid liquid separation. This excellence comes from our culture where we value quality in everything we do and offer; innovation to our products, technical rigour in providing solutions, prompt delivery and an ethical underpinning that creates and promotes the team that is Waterex.</p>
+</div>
+</div>
+
+<div class="col-sm-5"><img alt="" class="d-block w-100 sres partners-waterex" height="119" src="http://waterex.com/sites/default/files/logo_0.png" width="165" /></div>
+</div>
+</div>
+</div>
+</div>

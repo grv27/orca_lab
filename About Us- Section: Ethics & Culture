@@ -1,0 +1,47 @@
+<!-- Linking Bootstrap -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" /><meta name="viewport" content="width=device-width, initial-scale=1">
+<style type=“text/css">
+/* Start of CSS */
+.card {
+background:#f1f2f2;
+    font-size: 1em;
+    overflow: hidden;
+    padding: 10px;
+    border: none;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.d-block{
+height: 350px !important;
+}
+.btn {
+  margin-top: auto;
+border: #989c9f !important;
+color: #1d252c !important;
+background: #989c9f !important;
+}
+.btn:hover{
+color: #f1f2f2 !important;
+background: #54c0e8 !important;
+}
+</style>
+/* End of CSS */
+<! —- Start of Homepage HTML —->
+<div class="container-ppl">
+<div class="card">
+<h3><strong>ETHICS &amp; CULTURE</strong></h3>
+<hr />
+<div class="row ">
+<div class="col-sm-7">
+<div class="card-block">
+<p>In this increasingly environmentally conscious period SouthRepps is aware that many companies are endeavouring to pursue more socially focused agenda. We applaud these efforts. We however, do not need to add this outlook to our business. SouthRepps has always been concerned with the environment. From our earliest days, we, with our partners have removed pollutants from air, cleaned waste water, given drinking water to the poor of Africa and increased water reuse in desert regions. Even our purely industrial focused solutions focus on being environmentally sound and technically superior to give our clients the best outcome possible.</p>
+<p>With our partners we have always pushed the technology forward determined that we can reduce our footprint, literally and as measured in carbon or energy. But is doesn't stop there, we have worked with partners, representatives and clients in more than 50 countries and we have learnt that price sensitivity doesn't always lead to conscionable behaviour. We have changed sub contractors, partners and representatives where they do not meet our standards of integrity, fairness, honour and respect for life, often at our cost. We have always understood that we are only here for a generation and that its incumbent on us to pass a better world on to our children.</p>
+</div>
+</div>
+<div class="col-sm-5"><br />
+<img alt="" class="d-block w-100" height="286" src="/sites/default/files/inline-images/P1040101_1.jpg" width="360" /></div>
+</div>
+</div>
+</div>
+<! —- End of Homepage HTML —->

@@ -1,0 +1,230 @@
+<!-- Linking Bootstrap --><!-- Linking Bootstrap -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" /><meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">.container-page {
+    margin-top: 100px !important;
+}
+.container-projects {
+      height: auto;
+      width: 100%;
+      #background-color: #f1f2f2 !important;
+      font-family: Poppins, sans-serif;
+
+      }
+
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+     .overlay {
+      position: absolute;
+      bottom: 0;
+      background: #f1f2f2;
+      background: #54c0e8; /* Black see-through */
+      color: #f1f2f2;
+      width: 100%;
+      transition: 0.5s ease;
+      opacity: 0;
+      font-size: 20px;
+      padding: 20px;
+      text-align: center;
+    }
+    .container-image {
+      position: relative;
+      width: 100%;
+      }
+    .container-image:hover .overlay {
+      opacity: 1;
+    }
+
+    a:link {
+      color: #1d252c;
+    }
+
+    /* mouse over link */
+    a:hover {
+      color: #ffbf3c;
+    }
+
+      .btn-primary-op {
+        background: #989c9f !important;
+        text-decoration: none;
+        border-color: #989c9f !important;
+        cursor: pointer;
+      }
+      .btn-primary-op:hover {
+        background-color: #54c0e8 !important;
+        color: #1d252c !important;
+      }
+
+
+
+      .bs-calltoaction-op {
+        position: relative;
+        width: auto;
+        padding: 0px 0px;
+        border: 1px solid;
+        border-color: #f1f2f2;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+        .bs-calltoaction-op > .row-cta-op{
+            display: table;
+            width: calc(100% + 30px);
+        }
+            .bs-calltoaction-op > .row-cta-op > [class^="col-"],
+            .bs-calltoaction-op > .row-cta-op > [class*=" col-"]{
+                float: none;
+                display: table-cell;
+                vertical-align: middle;
+            }
+                .cta-contents-op{
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+                .cta-title-op{
+                        margin: 0 auto 15px;
+                        padding: 0;
+                        color: #54c0e8;
+                    }
+                .cta-button-op{
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+
+                }
+
+    @media (max-width: 991px){
+        .bs-calltoaction-op > .row-cta-op {
+            display: block;
+            width: auto;
+        }
+            .bs-calltoaction-op > .row-cta-op > [class^="col-"],
+            .bs-calltoaction-op > .row-cta-op > [class*=" col-"]{
+                float: none;
+                display: block;
+                vertical-align: middle;
+                position: relative;
+            }
+            .cta-contents-op {
+                text-align: center;
+            }
+    }
+    .bs-calltoaction-op.bs-calltoaction-primary-op{
+        background-color: #f1f2f2;
+        border-color: #f1f2f2;
+
+    }
+    .bs-calltoaction-op.bs-calltoaction-primary-op .cta-button-op .btn {
+        color: #f1f2f2;
+                    background: #989c9f;
+
+    }
+    .bs-calltoaction-op.bs-calltoaction-primary-op .cta-button-op .btn:hover {
+        color: #1d252c;
+                    background: #54c0e8;
+                    }
+.container-abtus {
+background: #1d252c;
+width: 100%;
+height: auto;
+color: #f1f2f2;
+padding-bottom: 40px;
+}
+.thumbnail_msn_abt:hover {
+    position:relative;
+    top:-25px;
+    width:150px;
+    height:150px;
+    display:block;
+    z-index:999;
+}
+@media screen and (max-width: 850px) and (min-width: 300px){
+.container-page {
+    padding-top: 100px !important;
+}
+}
+.hr-section {
+border-top: 1px solid #f1f2f2;
+width: 30%;}
+</style>
+<div class="container-page">
+<h2><strong>WHO WE ARE?</strong></h2>
+
+<hr />
+<p>SouthRepps is a business that specialises in the delivery of bespoke engineered solutions for industrial liquid processing. We utilise world class modelling to derive client specific solutions to their liquid needs. Weather it is to enable water reuse, water remediation or industrial liquid processing our clients know that we are at the very forefront of environmentally sound liquid processing. To achieve this we have agreements with various IP holders and equipment manufacturers around the world. To build any solution SouthRepps will utilise any technologies that will lead to our client's best outcome as they align with our culture and ethos.</p>
+
+<p>&nbsp;</p>
+
+<div class="container-abtus">&nbsp;
+<center>
+<h2><strong>MISSION &amp; VALUES</strong></h2>
+</center>
+
+<hr class="hr-section" /><!--     <center>
+<h4><strong>Sub Heading</strong></h4>
+</center>         -->&nbsp;
+<div class="container-msn-hg">
+<div class="row">
+<div class="col-sm">
+<center><img alt="" class="thumbnail_msn_abt" data-entity-type="file" data-entity-uuid="a1860f1a-bde0-4462-97c5-772b53789e58" src="/sites/default/files/inline-images/1Vision.png" width="150" /></center>
+&nbsp;
+
+<center><strong>VISION</strong></center>
+</div>
+
+<div class="col-sm">
+<center><img alt="" class="thumbnail_msn_abt" data-entity-type="file" data-entity-uuid="239609c0-eade-4b97-8f08-19aebf092e56" src="/sites/default/files/inline-images/1Quality.png" width="150" /></center>
+&nbsp;
+
+<center><strong>QUALITY</strong></center>
+</div>
+
+<div class="col-sm">
+<center><img alt="" class="thumbnail_msn_abt" data-entity-type="file" data-entity-uuid="7f2b5455-d48e-4980-99e0-dc7976ab1866" src="/sites/default/files/inline-images/1Technical.png" width="150" /></center>
+&nbsp;
+
+<center><strong>TECHNICAL</strong></center>
+</div>
+
+<div class="col-sm">
+<center><img alt="" class="thumbnail_msn_abt" data-entity-type="file" data-entity-uuid="47662209-285a-422d-8b9c-02fadf586abb" src="/sites/default/files/inline-images/1Innovation.png" width="150" /></center>
+&nbsp;
+
+<center><strong>INNOVATION</strong></center>
+</div>
+</div>
+</div>
+&nbsp;
+
+<div class="container-msn-low">
+<div class="row">
+<div class="col-sm">
+<center><img alt="" class="thumbnail_msn_abt" data-entity-type="file" data-entity-uuid="6d5f602b-52cb-4e70-a4da-500876cdeb8c" src="/sites/default/files/inline-images/Ethics.png" width="150" /></center>
+&nbsp;
+
+<center><strong>ETHICS</strong></center>
+</div>
+
+<div class="col-sm">
+<center><img alt="" class="thumbnail_msn_abt" data-entity-type="file" data-entity-uuid="10852503-4390-4bb3-99b7-a9ff27d1bed7" src="/sites/default/files/inline-images/Delivery.png" width="150" /></center>
+&nbsp;
+
+<center><strong>DELIVERY</strong></center>
+</div>
+
+<div class="col-sm">
+<center><img alt="" class="thumbnail_msn_abt" data-entity-type="file" data-entity-uuid="b44011ab-87ff-441a-bd76-0246fc5ffe61" src="/sites/default/files/inline-images/1Team.png" width="150" /></center>
+&nbsp;
+
+<center><strong>TEAM</strong></center>
+</div>
+</div>
+</div>
+</div>
+
+<p>&nbsp;</p>
+</div>
+
+<p>&nbsp;</p>

@@ -1,0 +1,242 @@
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" /><meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">*{ box-sizing: border-box; }
+    .container-service {
+    height: auto;
+    width: 100%;
+    background-color: #f1f2f2;
+    font-family: Poppins, sans-serif;
+    margin-top: 100px;
+}
+.ctatop {
+    background: #1d252c !important;
+    padding-top: 20px !important;
+    padding-bottom: 30px !important;
+
+padding-left: 15px;
+padding-right: 15px;
+
+
+}
+.black-trans-bg {
+    position: relative;
+}
+.black-trans-bg::before {
+    background: none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+.ctatop-title h2 {
+  font-family: Poppins, sans-serif;
+    color: #54c0e8 !important;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 16px 0;
+
+}
+.ctatop-title a {
+    margin-top: 15px;
+    border: 1px solid #989c9f;
+    background: #989c9f;
+    color: #f1f2f2;
+    display: inline-block;
+    float: right;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 9px 10px;
+    text-transform: uppercase;
+    text-decoration: none !important;
+}
+.ctatop-title a:hover {
+
+    border: 1px solid #1d252c;
+    background: #54c0e8;
+    color: #1d252c;
+
+}
+    .container-2layout {
+      position: relative;
+      width: 100%;
+      }
+    .first-column {
+        background: #f1f2f2;
+        color: #1d252c;
+        font-size: 2rem;
+
+        align-items: center;
+
+    }
+    .second-column{
+      background: #f1f2f2;
+        color: #1d252c;
+
+       }
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+     .overlay {
+      position: absolute;
+      bottom: 0;
+      background: #f1f2f2;
+      background: #54c0e8; /* Black see-through */
+      color: #f1f2f2;
+      width: 100%;
+      transition: 0.5s ease;
+      opacity: 0;
+      font-size: 18px;
+      padding: 20px;
+      text-align: center;
+    }
+.overlay h4{
+font-size: 22px;
+color: #1d252c;
+}
+    .container-image {
+      position: relative;
+      width: 100%;
+      }
+    .container-image:hover .overlay {
+      opacity: 1;
+    }
+    .article_con {
+      background-color: #f1f2f2;
+      border: 1px;
+      margin: 10px;
+      padding: 10px;
+
+    }
+    .second-col-home{
+      margin-left: 40px;
+      margin-top: 10px;
+    }
+    .article_con:hover {
+      background-color: #54c0e8;
+      margin: 10px;
+      padding: 10px;
+    }
+    a:link {
+      color: #1d252c;
+text-decoration: none;
+    }
+
+    /* mouse over link */
+    a:hover {
+      color: #ffbf3c;
+text-decoration: none;
+    }
+    .container-3layout {
+      position: relative;
+      width: 100%;
+      }
+@media screen and (max-width: 850px) and (min-width: 300px){
+.container-service {
+     padding-top: 100px !important;
+}
+}
+</style>
+<div class="container-service">
+<div class="para-intro">
+<h2><strong>WHAT WE DO?</strong></h2>
+
+<hr />
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis blandit cursus tellus vel maximus. Sed lorem nunc, malesuada et rutrum viverra, blandit eget magna. Nulla facilisi. Maecenas viverra eros sed odio tincidunt placerat. Morbi a orci blandit, rutrum justo quis, molestie lacus. Vivamus semper elit ut pellentesque mollis. Maecenas egestas, ante vel suscipit pretium, urna arcu semper justo, non interdum lorem eros sed diam. Praesent lorem velit, cursus sed consectetur nec, hendrerit in nisi.</p>
+</div>
+&nbsp;
+
+<div class="ctatop black-trans-bg">
+<div class="cattop-con">
+<div class="row">
+<div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+<div class="ctatop-title">
+<h2>Need Help? Get in touch with an expert</h2>
+<a href="http://env-4468463.hidora.com/contact">CONTACT US</a></div>
+</div>
+</div>
+</div>
+</div>
+&nbsp; &nbsp;<br />
+&nbsp;
+<center>
+<h2><strong>Our Services</strong></h2>
+</center>
+&nbsp;
+
+<div class="container-3layout">
+<div class="row">
+<div class="col-sm">
+<div class="container-image"><img alt="" class="image" src="/sites/default/files/inline-images/P1040101.jpg" />
+<div class="overlay">
+<h4>Site Visits</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ante id dolor laoreet laoreet a vitae augue.</p>
+</div>
+</div>
+</div>
+
+<div class="col-sm">
+<div class="container-image"><img alt="" class="image" src="/sites/default/files/inline-images/Misc%20001.jpg" />
+<div class="overlay">
+<h4>Testing</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ante id dolor laoreet laoreet a vitae augue.</p>
+</div>
+</div>
+</div>
+
+<div class="col-sm">
+<div class="container-image"><img alt="" class="image" src="/sites/default/files/inline-images/J241-Sawan%20WTP%20070.jpg" />
+<div class="overlay">
+<h4>Lab Works</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ante id dolor laoreet laoreet a vitae augue.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+&nbsp;
+
+<div class="container-3layout">
+<div class="row">
+<div class="col-sm">
+<div class="container-image"><img alt="" class="image" src="/sites/default/files/inline-images/J241-Sawan%20WTP%20070_0.jpg" />
+<div class="overlay">
+<h4>Pilot Trial</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ante id dolor laoreet laoreet a vitae augue.</p>
+</div>
+</div>
+</div>
+
+<div class="col-sm">
+<div class="container-image"><img alt="" class="image" src="/sites/default/files/inline-images/P1040101_0.jpg" />
+<div class="overlay">
+<h4>Maintenance</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ante id dolor laoreet laoreet a vitae augue.</p>
+</div>
+</div>
+</div>
+
+<div class="col-sm">
+<div class="container-image"><img alt="" class="image" src="/sites/default/files/inline-images/Misc%20001_0.jpg" />
+<div class="overlay">
+<h4>Upgrades</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ante id dolor laoreet laoreet a vitae augue.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
